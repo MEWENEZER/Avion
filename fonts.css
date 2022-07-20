@@ -1,0 +1,125 @@
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+
+    cursor: default;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    color: #22202E;
+  }
+  
+  h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #2A254B;
+  }
+
+  h4 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #2A254B;
+  }
+
+  h5 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  
+  
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+  }
+
+  hr:after {
+    transition: width .3s ease-in-out;
+  }
+
+  @keyframes width {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .body__large {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  
+  .body__medium {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .body__small {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .dark-primary {
+    color: #2A254B;
+  }
+
+  .primary {
+    color: #4E4D93;
+  }
+
+  .dark {
+    color: #CAC6DA;
+  }
+
+  .grey {
+    color: #EBE8F4;
+  }
+
+  .light-grey {
+    color: #F9F9F9;
+  }
+
+  .white {
+    color: white;
+  }

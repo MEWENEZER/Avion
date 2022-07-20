@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Divider" width="1386" height="1" viewBox="0 0 1386 1" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<line x1="-4.37114e-08" y1="0.500122" x2="1386" y2="0.500001" stroke="black" stroke-opacity="0.1" stroke-dasharray="0,0,0,1386"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6129032258064515s" values="0,0,0,1386; 
+          0,693,693,0; 
+          1386,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></line>
+<line x1="-4.37114e-08" y1="0.500122" x2="1386" y2="0.500001" stroke="#CAC6DA" stroke-opacity="0.1" stroke-dasharray="0,0,0,1386"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6129032258064515s" values="0,0,0,1386; 
+          0,693,693,0; 
+          1386,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></line>
+<line x1="-4.37114e-08" y1="0.500122" x2="1386" y2="0.500001" stroke="#4E4D93" stroke-opacity="0.1" stroke-dasharray="0,0,0,1386"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6129032258064515s" values="0,0,0,1386; 
+          0,693,693,0; 
+          1386,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></line>
+<setting>{"type":"direct","speed":31,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>
