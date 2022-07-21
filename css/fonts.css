@@ -40,6 +40,7 @@
   ul, li {
     margin: 0;
     padding: 0;
+    list-style-type: none;
   }
   
   hr {
@@ -92,6 +93,10 @@
 
   .primary {
     color: #4E4D93;
+  }
+
+  .link {
+    color: #726E8D;
   }
 
   .dark {
