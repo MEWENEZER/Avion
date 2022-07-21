@@ -10,8 +10,6 @@
   }
   
   h2 {
-    font-family: 'Clash Display';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 140%;
@@ -19,8 +17,6 @@
   }
   
   h3 {
-    font-family: 'Clash Display';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 140%;
@@ -28,8 +24,6 @@
   }
 
   h4 {
-    font-family: 'Clash Display';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
@@ -37,8 +31,6 @@
   }
 
   h5 {
-    font-family: 'Clash Display';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
@@ -78,24 +70,18 @@
 
   .body__large {
     font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 150%;
   }
   
   .body__medium {
     font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
   }
 
   .body__small {
     font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 150%;
   }
