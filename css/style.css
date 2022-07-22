@@ -193,7 +193,7 @@ svg {
 
 .listings-card {
   width: 305px;
-  height: 462px;
+  min-height: 462px;
 }
 
 .listing-card-header {
@@ -216,7 +216,7 @@ svg {
 
 .promo-card {
   width: 630px;
-  height: 478px;
+  min-height: 478px;
 
   background: #2a254b;
 
@@ -266,6 +266,7 @@ input[button] {
   background: #2a254b;
   color: white;
   width: 118px;
+  height: 56px;
 }
 
 input[button]:hover {
@@ -281,18 +282,10 @@ input[button]:hover {
 }
 
 .footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
   padding: 60px 0 50px;
 }
 
 .footer-menu-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
   width: 540px;
 }
 
@@ -307,7 +300,7 @@ input[button]:hover {
 }
 
 .footer-input {
-  width: 627px;
+  width: 509px;
   height: 56px;
 
   margin-top: 16px;
@@ -317,15 +310,4 @@ input[button]:hover {
 
 .footer-input::placeholder {
   color: white;
-}
-
-.footer-form {
-  display: block;
-  position: relative;
-}
-
-.footer-button {
-  position: absolute;
-  right: 0%;
-  bottom: 0%;
 }
