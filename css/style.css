@@ -136,7 +136,7 @@ svg {
 /* hero block */
 
 .hero-block {
-  background: url('/img/pic/HeroBlocks.png') no-repeat center center;
+  background: url('/img/pic/HeroBlocks.avif') no-repeat center center;
   background-size: cover;
 }
 
@@ -233,7 +233,7 @@ svg {
 /* club */
 
 .club {
-  background: url('/img/pic/Image.png') no-repeat center center;
+  background: url('/img/pic/Image.avif') no-repeat center center;
   background-size: cover;
 }
 
