@@ -9,7 +9,7 @@ body {
 
   margin: 0 auto;
 
-  color: #2A254B;
+  color: #2a254b;
 }
 
 input {
@@ -17,7 +17,9 @@ input {
   border: none;
 }
 
-img {
+/* Убираем 'Аномальные' отступы */
+img,
+svg {
   vertical-align: top;
   max-width: 100%;
 }
@@ -27,17 +29,17 @@ img {
   margin: 0 auto;
 }
 
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  flex-wrap: wrap;
+.content {
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
-.wrapper-column {
+/* wrapper'ы */
+
+.wrapper {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -47,9 +49,23 @@ img {
   justify-content: flex-end;
 }
 
-.content {
-  margin-top: 80px;
-  margin-bottom: 100px;
+.wrapper-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-wrapper {
+  display: grid;
+  gap: 40px 20px;
+  align-items: stretch;
+  grid-template-columns: repeat(4, 305px);
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* header */
@@ -57,12 +73,6 @@ img {
 .header-container {
   max-width: 1386px;
   margin: 0 auto;
-}
-
-.header-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .top-nav__item {
@@ -91,50 +101,50 @@ img {
 }
 
 .main-nav__item a:hover {
-  color: #4E4D93;
+  color: #4e4d93;
 }
 
 .body__medium:after {
-  background: #4E4D93;
+  background: #4e4d93;
   display: block;
-  content: "";
+  content: '';
   height: 1px;
   width: 0%;
-  -webkit-transition: width .3s ease-in-out;
-  -moz--transition: width .3s ease-in-out;
-  transition: width .3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
 }
 
 .body__small:after {
-  background: #EBE8F4;
+  background: #ebe8f4;
   display: block;
-  content: "";
+  content: '';
   height: 1px;
   width: 0%;
-  -webkit-transition: width .3s ease-in-out;
-  -moz--transition: width .3s ease-in-out;
-  transition: width .3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
 }
 
 .footer-nav__item a:hover:after,
 .footer-nav__item a:hover:after,
 .main-nav__item a:hover:after,
 .main-nav__item a:focus:after {
-    width: 100%;
+  width: 100%;
 }
 
 /* hero block */
 
 .hero-block {
-  background: url('/img/pic/HeroBlocks.png') no-repeat center center; 
+  background: url('/img/pic/HeroBlocks.png') no-repeat center center;
   background-size: cover;
 }
 
 .hero-block__content {
-  width: 630px;
-  height: 444px;
+  max-width: 630px;
+  min-height: 444px;
 
-  background: #FFFFFF;
+  background: #ffffff;
 
   margin: 130px 0px;
   padding: 50px 60px;
@@ -142,15 +152,15 @@ img {
 
 .view-collection__button {
   padding: 15.5px 32px;
-  background: #F9F9F9;
+  background: #f9f9f9;
   border: none;
-  
+
   width: fit-content;
   cursor: pointer;
 }
 
 .view-collection__button:hover {
-  background: #EBE8F4;
+  background: #ebe8f4;
 }
 
 .button__white {
@@ -165,16 +175,13 @@ img {
 
 .features-card {
   width: 305px;
-  margin-bottom: 48px;
-
-  background: #F9F9F9;
   padding: 48px;
+  background: #f9f9f9;
 }
 
 .features_header {
   display: flex;
   justify-content: center;
-
   margin-bottom: 36px;
 }
 
@@ -187,17 +194,6 @@ img {
 .listings-card {
   width: 305px;
   height: 462px;
-  margin-bottom: 48px;
-}
-
-.listings-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  flex-wrap: wrap;
-
-  margin: 28px 0 48px;
 }
 
 .listing-card-header {
@@ -205,14 +201,15 @@ img {
   padding-bottom: 8px;
 }
 
-.listings-card:nth-last-child(-n+2) {
+.listings-card:nth-last-child(-n + 2) {
   display: none;
 }
 
-.align-center {
+.listings-button {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  margin-top: 48px;
 }
 
 /* promo */
@@ -221,7 +218,7 @@ img {
   width: 630px;
   height: 478px;
 
-  background: #2A254B;
+  background: #2a254b;
 
   padding: 64px;
   margin-bottom: 60px;
@@ -266,28 +263,28 @@ img {
 }
 
 input[button] {
-  background: #2A254B;
+  background: #2a254b;
   color: white;
   width: 118px;
 }
 
 input[button]:hover {
-  background: #1E193E;
-  color: #EBE8F4;
+  background: #1e193e;
+  color: #ebe8f4;
   cursor: pointer;
 }
 
 /* footer */
 
 .footer {
-  background: #2A254B;
+  background: #2a254b;
 }
 
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
+
   padding: 60px 0 50px;
 }
 
