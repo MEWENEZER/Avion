@@ -1,0 +1,47 @@
+.product-content {
+  height: 100vh;
+}
+
+picture img {
+  min-width: 721px;
+  height: 759px;
+}
+
+.details-wrapper {
+  display: flex;
+}
+
+.details-description ul li {
+  list-style-type: disc;
+}
+
+.details-description p {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.product-about {
+  margin-bottom: 100px;
+}
+
+caption {
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+tr:first-child {
+  color: #2a254b;
+}
+
+tr {
+  color: #505977;
+}
+
+td {
+  padding-right: 57px;
+  padding-bottom: 12px;
+}
+
+td:last-child {
+  padding-right: 0;
+}
